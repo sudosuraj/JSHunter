@@ -1,6 +1,6 @@
-# 🔑 KeyHunter - Burp Suite Passive Scanner Extension
+# 🔑 JSHunter - Burp Suite Passive Scanner Extension
 
-KeyHunter is a powerful Burp Suite extension that passively scans HTTP responses for potential sensitive information exposures, such as API keys, access tokens, credentials, and secrets. It combines precise regex patterns and keyword-based detection with contextual validation to reduce false positives.
+JSHunter is a powerful Burp Suite extension that passively scans HTTP responses for potential sensitive information exposures, such as API keys, access tokens, credentials, and secrets. It combines precise regex patterns and keyword-based detection with contextual validation to reduce false positives.
 
 ## 📦 Features
 
@@ -21,13 +21,13 @@ KeyHunter is a powerful Burp Suite extension that passively scans HTTP responses
 
 ### Step-by-Step Setup
 
-1. Download the [KeyHunter.py](https://github.com/sudosuraj/KeyHunter) script or clone the repo:
+1. Download the [JSHunter.py](https://github.com/sudosuraj/JSHunter) script or clone the repo:
    ```bash
-   git clone https://github.com/sudosuraj/KeyHunter.git
+   git clone https://github.com/sudosuraj/JSHunter.git
    ```
 2. Go to the Extensions tab → click Add
   Extension Type: Python
-  Extension File: Select KeyHunter.py
+  Extension File: Select JSHunter.py
 
 ## 🤝 Contributing
 Found a bug or want to improve detection patterns? Pull requests are welcome!
